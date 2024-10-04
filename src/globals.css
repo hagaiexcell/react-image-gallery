@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  main {
+    @apply min-h-screen bg-gradient-to-r from-[#d7d7d7] via-[#f5f5f5] to-[#ffff] py-4 font-display;
+  }
+
+  section {
+    @apply pb-11;
+  }
+}
+
+@layer components {
+  .sc-title {
+    @apply text-2xl font-bold text-white;
+  }
+
+  .app-title {
+    @apply text-2xl font-bold tracking-wide text-black md:text-3xl;
+  }
+}
